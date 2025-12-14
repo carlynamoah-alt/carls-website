@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ALUMNI REGISTRATION FORM</title>
+        <link rel="stylesheet" type="text/css" href="css/Stylesheet.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+         <nav>
+       <ul>
+        <a href='index.html'><span><li>Home</li></span></a>
+        <a href='list.html'><li>List</li></a>
+        <li><a href='autobiography.html'>Biography</a></li>
+        <li><a href='personaltimetable.html'>Table</a></li>
+        <a href='audioandvideo.html'><li>Audio & Video</li></a>
+        <a href='layout.html'><li>Layout</li></a>
+        <a href='registrationform.html'><li>Registration Form</li></a>
+      </ul>
+      </nav>
+        <h2>ALMA MATER--REGISTRATION FORM</h2>
+        <p>Please fill this form with your necessary details to register as a member of our alumni network. </p>
+        <form method="post">
+            <fieldset>
+                <legend>REGISTRATION FORM</legend>
+
+                <label for="fname">Full Name(as enrolled)</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="e.g. John Doe" required><br>
+                    <br>
+
+                <label for="gender">Gender</label><br>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Prefer not to say</option>
+                </select><br>
+                <br>
+
+                <label for="email">Email adrress</label><br>
+                    <input type="text" id="email" name="email" placeholder="name@example.com" required><br>
+                    <br>
+
+                <label for="contact">Phone Number/Contact</label><br>
+                    <input type="tel" id="contact" name="contact" required><br>
+                    <br>
+            </fieldset>
+
+            <br>
+
+
+            <fieldset>
+                <legend>SCHOOL HISTORY</legend>
+                
+                <label for="fschool">Former school attended(Basic school)</label><br>
+                    <input type="text" id="fschool" name="fschool" required><br>
+                    <br>
+
+                <label for="region">Regional location of Basic School</label><br>
+                    <input type="radio" id="ga" name="region" value="Greater Accra">
+                    <label for="ga">Greater Accra</label><br>
+
+                    <input type="radio" id="ce" name="region" value="Central">
+                    <label for="ce">Central</label><br>
+
+                    <input type="radio" id="volta" name="region" value="volta">
+                    <label for="volta">Volta</label><br>
+
+                    <input type="radio" id="ash" name="region" value="ashanti">
+                    <label for="ash">Ashanti</label><br>
+
+                    <input type="radio" id="east" name="region" value="eastern">
+                    <label for="east">Eastern</label><br>
+
+                    <input type="radio" id="west" name="region" value="western">
+                    <label for="west">Western</label><br>
+
+                    <input type="radio" id="uw" name="region" value="upper west">
+                    <label for="uw">Upper West</label><br>
+
+                    <input type="radio" id="ue" name="region" value="upper east">
+                    <label for="ue">Upper East</label><br>
+
+                    <input type="radio" id="north" name="region" value="northern">
+                    <label for="north">Northern</label><br>
+
+                    <input type="radio" id="bono" name="region" value="Bono">
+                    <label for="bono">Bono</label><br>
+
+                    <input type="radio" id="be" name="region" value="bono east">
+                    <label for="be">Bono East</label><br>
+
+                    <input type="radio" id="ahafo" name="region" value="ahafo">
+                    <label for="ahafo">Ahafo</label><br>
+
+                    <input type="radio" id="savannah" name="region" value="savannah">
+                    <label for="savannah">Savannah</label><br>
+
+                    <input type="radio" id="ne" name="region" value="north east">
+                    <label for="ne">North East</label><br>
+
+                    <input type="radio" id="oti" name="region" value="oti">
+                    <label for="oti">Oti</label><br>
+
+                    <input type="radio" id="wn" name="region" value="western north">
+                    <label for="wn">Western North</label><br>
+                    <br>
+
+                    <label for="house">House at SHS</label><br>
+                    <input type="text" id="house" name="house" placeholder="e.g Akuafo" required><br>
+                    <br>
+
+                    <label for="dorm">Dorm</label><br>
+                    <input type="text" id="dorm" name="dorm" ><br>
+                    <br>
+
+                    <label for="program">Program/field of Study(e.g science, visual arts)</label><br>
+                    <input type="text" id="program" name="program" required><br>
+                    <br>
+
+                    <label for="entry">Date entered(first term of first year)</label><br>
+                    <input type="date" id="entry" name="entry" placeholder="eg: 31/12/2020" required><br>
+                    <br>
+
+                    <label for="completed">Date completed/graduated</label><br>
+                    <input type="date" id="completed" name="completed" placeholder="eg: 31/12/2023" required><br>
+                    <br>
+
+                    <label for="year">Class/year group(2000-2023)</label><br>
+                    <input type="text" id="year" name="year" placeholder="e.g 2000-2003" required><br>
+                    <br>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>CONSENT</legend>
+
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">I CONFIRM THAT THE INFORMATION PROVIDED IS/ARE CORRECT AND CAN BE USED FOR ALUMNI RECORDS.</label><br>
+            </fieldset>
+        </form>
+
+        <label for="submit"></label>
+        <input type="submit" id="submit" name="submit" value="SUBMIT">
+    </body>
+</html>
